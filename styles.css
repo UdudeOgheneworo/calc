@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  border: 2px red solid;
+  font-weight: 600;
+  width: 270px;
+}
+
+.display {
+  text-align: right;
+  border-bottom: 2px red solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+  width: auto;
+}
+.display > div {
+  height: 19.2rem;
+  padding: 0.2rem;
+}
+.clicks {
+  font-size: 1.2rem;
+}
+.answer {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.808);
+}
+.keys {
+  height: 220px;
+  padding: 2px;
+  display: grid;
+  text-align: center;
+  grid-template: repeat(5, 1fr);
+  gap: 2px;
+  color: red;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.keys > div {
+  border: 2px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.equal {
+  grid-row: 3 / span 2;
+  grid-column: 5/6;
+  background-color: red;
+  color: white;
+}

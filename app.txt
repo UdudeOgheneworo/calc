@@ -1,0 +1,3 @@
+for this calculator
+build a box for each number seperated by operators
+when an operator is deleted the number that comes before the operator becomes next in line
